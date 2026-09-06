@@ -42,6 +42,8 @@ pip install -r requirements.txt
 
 ### 3. Configure the Groq API key
 
+A Groq API key is required to run the baseline.
+
 Create a `.env` file in the root directory:
 
 ```text
@@ -56,7 +58,7 @@ Run:
 python agent.py
 ```
 
-The natural-language task to be executed is specified at the bottom of `agent.py`.
+The natural language task to be executed is specified at the bottom of `agent.py`.
 
 ## Input
 
